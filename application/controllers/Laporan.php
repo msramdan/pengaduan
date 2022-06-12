@@ -180,6 +180,8 @@ class Laporan extends CI_Controller
 		$this->session->set_flashdata('message', 'laporan di Reject');
 		redirect(site_url('laporan'));
 	}
+
+	
 }
 
 /* End of file Laporan.php */

@@ -64,4 +64,9 @@ class Pengaduan extends CI_Controller
 		$this->session->set_flashdata('message', 'Pengaduan berhasil terkirim');
 		redirect(site_url('pengaduan'));
 	}
+
+	public function download($gambar)
+	{
+		force_download('temp/assets/berkas/' . $gambar, NULL);
+	}
 }

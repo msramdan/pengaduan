@@ -127,7 +127,6 @@
 				<ul class="nav">
 					<li class="nav-header">Main Menu</li>
 					<li><a href="<?= base_url() ?>dashboard"><i class="fa fa-home"></i> <span>Dashboard</span></a></li>
-					<li><a href="<?= base_url() ?>jabatan"><i class="fa fa-home"></i> <span>Jabatan</span></a></li>
 					<li><a href="<?= base_url() ?>laporan"><i class="fa fa-book"></i> <span>List Laporan</span></a></li>
 					<li class="has-sub">
 						<a href="javascript:;">

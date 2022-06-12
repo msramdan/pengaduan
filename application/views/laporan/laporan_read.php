@@ -42,8 +42,12 @@
 							<td><?php echo $deskripsi; ?></td>
 						</tr>
 						<tr>
-							<td>Photo</td>
-							<td> <img src="<?= base_url() ?>temp/assets/berkas/<?= $photo ?>" alt="" width="450px" height="auto"> </td>
+							<td>Berkas Pendukung</td>
+							<td>
+								<iframe src="<?= base_url() ?>temp/assets/berkas/<?= $photo ?>" alt="" width="450px" height="450px"></iframe>
+								<br>
+								<a style="margin-button:5px" class="btn btn-success" href="<?= base_url() ?>pengaduan/download/<?= $photo ?>"><i class="fa fa-download"></i> &nbsp;Download Berkas</a>
+							</td>
 						</tr>
 						<tr>
 							<td>Status</td>
